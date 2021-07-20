@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {   
     [SerializeField] float mainThrust = 1000f;
     [SerializeField] float rotationThrust = 1f;
-    [SerializeField] AudioClip mainEngine, deathSound, succesSound;
+    [SerializeField] AudioClip mainEngine;
 
     Rigidbody rb;
     AudioSource audioSource;
@@ -58,17 +58,4 @@ public class Movement : MonoBehaviour
         transform.Rotate(Vector3.forward * rotationThisFrame * Time.deltaTime);
         rb.freezeRotation = false; // Unfreezing rotatin so the physics system can take over
     }
-
-    void OnCollisionEnter(Collision other) 
-    {
-        if (other.gameObject.tag != "Friendly" && other.gameObject.tag != "Finish")
-        {
-            audioSource.PlayOneShot(deathSound);
-        }
-        else if (other.gameObject.tag == "Finish")
-        {
-            audioSource.PlayOneShot(succesSound);
-        }
-    }
-
 }
