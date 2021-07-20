@@ -542,6 +542,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 256091443, guid: 6f1f41e6b39d57b4fbde679c83ececfe, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0b98ec4b6964665448de85e23724ff9b, type: 3}
+    - target: {fileID: 256091443, guid: 6f1f41e6b39d57b4fbde679c83ececfe, type: 3}
+      propertyPath: mainEngine
+      value: 
+      objectReference: {fileID: 8300000, guid: 4cd90be9cf502ae4198b3c9aae399d11, type: 3}
+    - target: {fileID: 256091443, guid: 6f1f41e6b39d57b4fbde679c83ececfe, type: 3}
+      propertyPath: succesSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2466d9bda0fe94042ae86dcf86d9fb4f, type: 3}
+    - target: {fileID: 523658324, guid: 6f1f41e6b39d57b4fbde679c83ececfe, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3360425700177151319, guid: 6f1f41e6b39d57b4fbde679c83ececfe, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -586,6 +602,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4875484799700331590, guid: 6f1f41e6b39d57b4fbde679c83ececfe, type: 3}
+      propertyPath: crash
+      value: 
+      objectReference: {fileID: 8300000, guid: 0b98ec4b6964665448de85e23724ff9b, type: 3}
+    - target: {fileID: 4875484799700331590, guid: 6f1f41e6b39d57b4fbde679c83ececfe, type: 3}
+      propertyPath: success
+      value: 
+      objectReference: {fileID: 8300000, guid: 2466d9bda0fe94042ae86dcf86d9fb4f, type: 3}
+    - target: {fileID: 4875484799700331590, guid: 6f1f41e6b39d57b4fbde679c83ececfe, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0b98ec4b6964665448de85e23724ff9b, type: 3}
     - target: {fileID: 7039351486237804967, guid: 6f1f41e6b39d57b4fbde679c83ececfe, type: 3}
       propertyPath: m_Name
       value: Rocket
